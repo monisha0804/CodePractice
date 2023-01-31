@@ -1,0 +1,72 @@
+package example.SampleProgram.Countires;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+
+public class UserInterface {
+	public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+         Scanner sc = new Scanner(System.in);
+         int option=0;
+         String cname="";
+         String capname="";
+
+          CAC cac=new CAC();
+
+        do {
+           System.out.println("1.Add\n2.Search\n3.Exit");
+           System.out.println("Enter your choice");
+           option=sc.nextInt();
+           sc.nextLine();
+           switch (option)
+           {
+           case 1:
+            System.out.println("Enter the country name");
+            cname=sc.nextLine();
+            System.out.println("Enter the capital name");
+            capname=sc.nextLine();
+
+            cac.add(cname,capname);
+            break;
+            
+           case 2:
+            
+            Map<String, String> map=cac.getCac();
+            if(map.isEmpty())
+            {
+             System.out.println("Map is empty");
+            }
+            else {
+          	  System.out.println("Enter the country name");
+                cname=sc.nextLine();
+                for(Entry<String, String> entry: map.entrySet()) {
+              	  
+                    if(entry.getKey().equals(cname)) {
+                      String a=  entry.getValue();
+                      System.out.println(a);
+                      break;
+                    }  
+                    else {
+                    	  System.out.println("data is not found");
+                      }
+            }
+
+          break;
+            }
+          case 3:
+            System.out.println("Thank you for using the application.");
+            break;
+           default:
+            System.out.println("Invalid option. Please try again.");
+            break;
+           }
+
+       }while(option!=3);
+        
+         }
+
+}
