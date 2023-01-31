@@ -1,0 +1,12 @@
+public abstract class AbstractDemo {
+	
+	 void Bike(){
+	        System.out.println("bike");
+	    }
+
+	    abstract void run();
+
+	    void changegear() {
+	        System.out.println("gear changed");
+	    }
+}
