@@ -1,0 +1,48 @@
+package list;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.List;
+
+public class ListType {
+	public static void main(String[] args) {
+		 List<String> list= new ArrayList<String>();  
+		 
+		 //Adding elements in the List  
+		 list.add("11");  
+		 list.add("12");  
+		 list.add("314");  
+		 list.add("45");  
+		 
+		 //Iterating the List element using for-each loop  
+//		 for(String fruit:list)  
+//		  System.out.println(fruit);  
+		 
+		 Iterator<String> i = list.iterator();
+		 while(i.hasNext()) {
+			 System.out.println(i.next());
+		 }		 
+		 System.out.println("Reverse order");  // Reverse a list
+		 
+		 Iterator<String> i1 = list.iterator();
+		 Collections.reverse(list);
+		// System.out.println(list);  //prints the elements as a array list [ ]
+		 while(i1.hasNext()) {
+			 System.out.println(i1.next());
+		 }
+		 
+		 System.out.println("Sorting the list");  // sorting
+		 //Comparator<String> cmp = Collections.sort();
+		 Collections.sort(list);
+		 Iterator<String> i2 = list.iterator();
+		while(i2.hasNext()) {
+			 System.out.println(i2.next());
+		 }
+		 
+		}  
+
+}
+
+
