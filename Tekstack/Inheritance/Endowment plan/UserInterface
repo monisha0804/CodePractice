@@ -1,0 +1,44 @@
+package example.SampleProgram.EndowmentQuestion;
+
+import java.util.Scanner;
+
+public class UserInterface extends HealthEndowment{
+
+		public UserInterface(String endowmentId, String holderName, String endowmentType, String registrationDate,
+		  String educationalInstitution, String educationalDivision, String healthCareCenter, int holderAge) {
+		super(endowmentId, holderName, endowmentType, registrationDate, healthCareCenter, educationalInstitution , educationalDivision, holderAge); 
+		
+		}
+
+public static void main(String[] args) {
+	
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter Endowment Id");
+	String id = sc.nextLine();
+	
+	System.out.println("Enter Holder Name");
+	String name = sc.nextLine();
+	
+	System.out.println("Enter Endowment Type");
+	String type = sc.nextLine();
+	
+	System.out.println("Enter Registration Date");
+	String date = sc.nextLine();
+	
+	
+	System.out.println("Enter Educational Institution");
+	String edId= sc.nextLine();
+	
+	
+	System.out.println("Enter Educational Division");
+	String ediv = sc.nextLine();
+
+	System.out.println("Enter Holder Age");
+	int age = sc.nextInt();
+
+
+	UserInterface ab = new UserInterface(id,name, type, date, edId, ediv, edId, age );
+	ab.calculateEndowment();
+}
+
+}
