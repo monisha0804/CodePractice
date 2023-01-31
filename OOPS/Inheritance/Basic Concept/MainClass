@@ -1,0 +1,11 @@
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Bus c = new Bus();
+//		c.car();
+//	 c.vehicle1();
+		c.horn();
+	}
+
+}
