@@ -1,0 +1,39 @@
+package example;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class SetExample {
+	
+	public static void main(String[] args) {
+		
+		//set is implemented by hash set 
+		//hash set implements set 
+		//linked hash set implements set interface and extends hash set
+		
+		Set<String> s = new HashSet<String>();
+		 s.add("ase");
+		 s.add("whe");
+		 s.add("era");
+		 System.out.println(s);
+		 
+		 Set<String> set = new TreeSet<String>(); 
+		 set.add("1");
+		 set.add("whe");
+		 set.add("edr");
+		 set.remove("edr");     // remove the element from set
+		 
+		 Iterator<String> ite = set.iterator(); //displays each element in the set
+		 while(ite.hasNext()) {
+			 System.out.println(ite.next());
+		 }
+		
+		 System.out.println(set);
+
+	}
+	
+}
+	
+
