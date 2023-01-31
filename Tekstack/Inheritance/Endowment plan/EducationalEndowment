@@ -1,0 +1,55 @@
+package example.SampleProgram.EndowmentQuestion;
+
+public class EducationalEndowment extends Endowment{
+    	 private String educationalInstitution;
+	     private String educationalDivision;
+
+	    public String getEducationalInstitution() {
+	        return educationalInstitution;
+	    }
+
+	    public void setEducationalInstitution(String educationalInstitution) {
+	        this.educationalInstitution = educationalInstitution;
+	    }
+
+	    public String getEducationalDivision() {
+	        return educationalDivision;
+	    }
+
+	    public void setEducationalDivision(String educationalDivision) {
+	        this.educationalDivision = educationalDivision;
+	    }
+	    
+	    public EducationalEndowment(String endowmentId, String holderName, String endowmentType, String registrationDate,String educationalInstitution,String educationalDivision) {
+	        super(endowmentId, holderName, endowmentType, registrationDate);
+	        // TODO Auto-generated constructor stub
+	    }
+    
+	    public double calculateEndowment() {
+
+
+	           String educationalDivision[] = {"School","UnderGraduate","PostGraduate"};
+//	            Scanner sc = new Scanner(System.in);
+//	            System.out.println("Enter Educational Division");
+//	            String ediv = sc.nextLine();
+
+//	            if( Arrays.stream(educationalDivision).anyMatch(t -> t.equals(ediv))) {
+
+	                if(educationalDivision.equals("School")) {
+	                    System.out.println("Endowment Amount 30000");
+	                }
+
+	                if(educationalDivision.equals("UnderGraduate")) {
+	                    System.out.println("Endowment Amount 60000");
+	                }
+
+	                if(educationalDivision.equals("PostGraduate")) {
+	                    System.out.println("Endowment Amount 90000");
+	                }
+
+//	            }
+
+	        return 0;
+	    } 
+
+	}
