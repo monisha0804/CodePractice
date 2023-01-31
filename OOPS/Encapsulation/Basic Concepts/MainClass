@@ -1,0 +1,9 @@
+public class Example {
+	
+	public static void main(String[] args) {
+		Example1 encap = new Example1();
+		encap.setName("kingston");
+		System.out.println(encap.getName());
+		
+	}
+}
