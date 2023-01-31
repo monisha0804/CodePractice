@@ -1,0 +1,192 @@
+Sample Input / Output 1:
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+1
+
+Enter the country name
+
+Italy
+
+Enter the capital name
+
+Rome
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+1
+
+Enter the country name
+
+New Zealand
+
+Enter the capital name
+
+Wellington
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+1
+
+Enter the country name
+
+Russia
+
+Enter the capital name
+
+Moscow
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+2
+
+Enter the country name
+
+New Zealand
+
+Wellington
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+3
+
+Thank you for using the application
+
+
+Sample Input / Output 2:
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+1
+
+Enter the country name
+
+Russia
+
+Enter the capital name
+
+Moscow
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+1
+
+Enter the country name
+
+Italy
+
+Enter the capital name
+
+Rome
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+2
+
+Enter the country name
+
+Singapore
+
+Data not found
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+3
+
+Thank you for using the application
+
+
+Sample Input / Output 3:
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+2
+
+The map is empty
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+3
+
+Thank you for using the application
+
+
+Sample Input / Output 4:
+
+1.Add
+
+2.Search
+
+3.Exit
+
+Enter your choice
+
+3
+
+Thank you for using the application
