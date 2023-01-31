@@ -1,0 +1,57 @@
+Sample Input/Output 1
+
+Enter Endowment Id
+
+EID101
+
+Enter Holder Name
+
+Babu
+
+Enter Endowment Type
+
+Educational
+
+Enter Registration Date
+
+28/5/2021
+
+Enter Educational Institution
+
+AMC
+
+Enter Educational Division
+
+undergraduate
+
+Endowment Amount 60000.00
+
+ 
+
+Sample Input/Ouput 2
+
+Enter Endowment Id
+
+EID205
+
+Enter Holder Name
+
+Ezhil
+
+Enter Endowment Type
+
+health
+
+Enter Registration Date
+
+10/4/2021
+
+Enter Health Care Center
+
+Queens
+
+Enter Holder Age
+
+40
+
+Endowment Amount 200000.00
