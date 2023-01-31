@@ -1,0 +1,19 @@
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+//      We cannot create objects of an abstract class. 
+//      To implement features of an abstract class, we inherit subclasses from it and create objects of the subclass.
+//      A subclass must override all abstract methods of an abstract class.
+
+//      AbstractDemo obj1 = new AbstractDemo();
+
+
+      AbstractDemo obj1 = new Honda();
+      obj1.Bike();
+      obj1.changegear();
+      obj1.run();
+
+	}
+
+}
