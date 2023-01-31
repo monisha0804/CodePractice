@@ -1,0 +1,30 @@
+package list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListExample {
+
+	public static void main(String[] args) {
+		List<String> list= new ArrayList<String>();
+		 list.add("11");  
+		 list.add("12");  
+		 list.add("314");  
+		 list.add("45"); 
+		 
+		List<String> list1= new ArrayList<String>();
+		 list1.add("a");  
+		 list1.add("d");  
+		 list1.add("f");  
+		 list1.add("e"); 
+		 list1.add(2,"w");  //adding element using index
+		 
+		 list.addAll(list1); //adding elements from list 1 to list
+		 
+		 System.out.println(list);
+		 
+		 
+		 
+	}
+
+}
