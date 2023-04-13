@@ -1,0 +1,15 @@
+package example;
+
+public class DoSelect {
+
+public static void main(String args[] ){
+	
+	char[] chars = {'A','B','1','2','@'};
+	System.out.println(chars[chars.length-1]);
+	
+}
+}
+
+
+//OUTPUT:
+@
