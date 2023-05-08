@@ -1,0 +1,24 @@
+public class StringReverse {
+
+	public static void main(String[] args) {
+  
+//Reverse a string using the reverse method(inbuild method in string builder and string buffer)
+
+		String str="hello";
+		StringBuilder str1 = new StringBuilder();
+		str1.append(str);
+	  str1 = str1.reverse();
+		System.out.println(str1);
+    
+//Reverse a string without using the inbuild method
+  String str="hello";
+		String revStr = " ";
+		for(int i=0; i<str.length(); i++) {
+        char ch = str.charAt(i);
+        revStr=ch+revStr;        
+        }
+		 System.out.println(revStr);
+	}
+	
+	
+}
