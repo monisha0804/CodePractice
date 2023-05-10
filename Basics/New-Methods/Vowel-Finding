@@ -1,0 +1,13 @@
+
+
+public class Vowels {
+
+	public static void main(String[] args) {
+		System.out.println(findVowels("monisha"));
+	}
+
+	public static boolean findVowels(String string) {
+		return string.toLowerCase().matches(".*[zxde].*");
+	}
+
+}
