@@ -58,10 +58,10 @@ public class Palindrome {
 
 
 		 if(str.equals(str1)) {
-			 System.out.println("hh");
+			 System.out.println("is a palindrome");
 		 }
 		 else {
-			 System.out.println("mm");
+			 System.out.println("not a palindrome");
 		 }
 	}
 	
