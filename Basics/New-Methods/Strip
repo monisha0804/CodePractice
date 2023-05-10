@@ -1,0 +1,21 @@
+Strip() method is used to remove the whitespace before the starting of a word
+StripLeading() removes all the white space from the sentence 
+StripTrailing() removes the whitespace after the last word of the sentence or word
+
+public class WhiteSpace {
+
+	public static void main(String[] args) {
+		String s= "    he llo   ";
+    
+		System.out.println(s.strip());
+		
+		System.out.println(s.stripLeading());
+
+		System.out.println(s.stripTrailing());
+	}
+  
+  
+  //OUTPUT: 
+he llo
+he llo   
+    he llo  
