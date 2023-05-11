@@ -1,0 +1,20 @@
+//FACTORIAL OF A NUMBER --- Factorial of n (number) is the product of all positive descending integers 
+Example: 5! = 5*4*3*2*1
+
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		
+		int i,f=1;
+		Scanner sc= new Scanner(System.in);
+		int n=sc.nextInt();
+	//	int num=5;
+		for(i=1;i<=n;i++) {
+			f=f*i;
+		}
+		System.out.println(f);
+	}
+
+}
+
