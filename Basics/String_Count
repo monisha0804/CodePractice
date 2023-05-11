@@ -1,3 +1,6 @@
+The list of letters that are repeated in the string
+
+
 public class String_Count {
 
 	public static void main(String[] args) {
@@ -25,3 +28,9 @@ public class String_Count {
 			}
 	}
 }
+
+
+OUTPUT: 
+i
+n
+y
