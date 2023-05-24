@@ -1,0 +1,27 @@
+// Find the occurance of the 2nd letter in the string
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+		
+		char ch = s.charAt(1);
+		int count = 0;
+		for(int i=0;i<s.length();i++) {
+			if(ch==s.charAt(i)) {
+				count++;				
+			}
+			
+		}
+		if(count>0) {
+			System.out.println(count);
+		}
+		else {
+			System.out.println("none");
+		}
+
+	}
+
+}
