@@ -1,0 +1,22 @@
+package arrayList;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Display_Elements {
+
+	public static void main(String[] args) {
+		
+		//https://www.w3resource.com/java-exercises/collection/index.php
+		//Write a Java program to create an array list, add some colors (strings) and print out the collection.
+		
+		List<String> a = new ArrayList<String>();
+		a.add("red");
+		a.add("yellow");
+		a.add("green");
+		a.add("blue");
+		System.out.println(a);
+
+	}
+
+}
