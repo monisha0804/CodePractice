@@ -1,0 +1,22 @@
+package arrayList;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Q5 {
+
+	public static void main(String[] args) {
+			
+		//Write a Java program to update an array element by the given element.
+		//set() method is used to replace the initial value with a new value
+		
+		List<String> a= new ArrayList<String>() ;
+		a.add("moni");
+		a.add("juik");
+		a.add("om");
+		a.add("ma");
+		System.out.println(a);
+		a.set(1, "hello");
+		System.out.println(a);
+	}
+}
