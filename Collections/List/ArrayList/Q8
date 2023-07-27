@@ -1,0 +1,25 @@
+package arrayList;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Q8 {
+
+	public static void main(String[] args) {
+		
+		//Write a Java program to sort a given array list.
+		
+		List<String> a = new ArrayList<>();
+		a.add("moni");
+		a.add("sun");
+		a.add("hello");
+		a.add("apple");
+		a.add("juiko");
+		System.out.println(a);
+		
+		Collections.sort(a);
+		System.out.println(a);
+	}
+
+}
