@@ -1,0 +1,27 @@
+package arrayList;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+		
+		//Write a Java program to insert an element into the array list at the first position.
+		
+		//adding an element in a position, does'nt replace the place, it just shifts the elements to the next index
+		
+		
+		List<String> a = new ArrayList<String>();
+		a.add("moni");
+		a.add("gv");
+		a.add("om");
+		System.out.println(a);
+		a.add(1, "arun");
+		a.add(4,"ruya");
+		 System.out.println(a.get(1)); 
+		System.out.println(a);
+
+	}
+
+}
