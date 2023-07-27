@@ -1,0 +1,29 @@
+package arrayList;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Q2 {
+
+	public static void main(String[] args) {
+		
+		//Write a Java program to iterate through all elements in an array list.
+		
+		List<String> a = new ArrayList<String>();
+		a.add("om");
+		a.add("namah");
+		a.add("shivaya");
+		
+		//using iterator 
+		Iterator i = a.iterator();
+		while(i.hasNext()) {
+			System.out.println(i.next());
+		}	
+		//using for loop
+			for(String list : a) {
+				System.out.println(list);
+			}
+		}
+	}
+
